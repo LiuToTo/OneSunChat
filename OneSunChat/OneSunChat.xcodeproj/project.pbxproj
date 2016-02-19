@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B40B47EB1C76C61A003A0920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B47EA1C76C61A003A0920 /* AppDelegate.swift */; };
-		B40B47ED1C76C61A003A0920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B47EC1C76C61A003A0920 /* ViewController.swift */; };
-		B40B47F01C76C61A003A0920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40B47EE1C76C61A003A0920 /* Main.storyboard */; };
-		B40B47F21C76C61A003A0920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B47F11C76C61A003A0920 /* Assets.xcassets */; };
-		B40B47F51C76C61A003A0920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40B47F31C76C61A003A0920 /* LaunchScreen.storyboard */; };
 		B40B48001C76C61A003A0920 /* OneSunChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B47FF1C76C61A003A0920 /* OneSunChatTests.swift */; };
 		B40B480B1C76C61A003A0920 /* OneSunChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B480A1C76C61A003A0920 /* OneSunChatUITests.swift */; };
+		B40B48251C76D85B003A0920 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B48241C76D85B003A0920 /* BasicViewController.swift */; };
+		B40B482F1C76DCE8003A0920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B48261C76DCE8003A0920 /* AppDelegate.swift */; };
+		B40B48301C76DCE8003A0920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40B48271C76DCE8003A0920 /* Assets.xcassets */; };
+		B40B48311C76DCE8003A0920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40B48291C76DCE8003A0920 /* LaunchScreen.storyboard */; };
+		B40B48331C76DCE8003A0920 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B40B482D1C76DCE8003A0920 /* Info.plist */; };
+		B40B48361C76E26C003A0920 /* BasicNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B48351C76E26C003A0920 /* BasicNavigationController.swift */; };
+		B40B48381C76E2D5003A0920 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B48371C76E2D5003A0920 /* ChatViewController.swift */; };
+		B40B483A1C76E2EF003A0920 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B48391C76E2EF003A0920 /* ContactViewController.swift */; };
+		B40B483C1C76E300003A0920 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B483B1C76E300003A0920 /* DiscoverViewController.swift */; };
+		B40B483E1C76E30F003A0920 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B483D1C76E30F003A0920 /* MineViewController.swift */; };
+		B40B48401C76E3B0003A0920 /* BasicTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B483F1C76E3B0003A0920 /* BasicTabBarController.swift */; };
+		B40B48421C77079F003A0920 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B48411C77079F003A0920 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +42,24 @@
 
 /* Begin PBXFileReference section */
 		B40B47E71C76C61A003A0920 /* OneSunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B40B47EA1C76C61A003A0920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		B40B47EC1C76C61A003A0920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
-		B40B47EF1C76C61A003A0920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B40B47F11C76C61A003A0920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		B40B47F41C76C61A003A0920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B40B47F61C76C61A003A0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		B40B47FB1C76C61A003A0920 /* OneSunChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSunChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40B47FF1C76C61A003A0920 /* OneSunChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSunChatTests.swift; sourceTree = "<group>"; };
 		B40B48011C76C61A003A0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B40B48061C76C61A003A0920 /* OneSunChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSunChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40B480A1C76C61A003A0920 /* OneSunChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSunChatUITests.swift; sourceTree = "<group>"; };
 		B40B480C1C76C61A003A0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40B48241C76D85B003A0920 /* BasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		B40B48261C76DCE8003A0920 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = OneSunChat/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		B40B48271C76DCE8003A0920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = OneSunChat/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B40B482A1C76DCE8003A0920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B40B482D1C76DCE8003A0920 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OneSunChat/Info.plist; sourceTree = SOURCE_ROOT; };
+		B40B48351C76E26C003A0920 /* BasicNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicNavigationController.swift; sourceTree = "<group>"; };
+		B40B48371C76E2D5003A0920 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B40B48391C76E2EF003A0920 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		B40B483B1C76E300003A0920 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		B40B483D1C76E30F003A0920 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		B40B483F1C76E3B0003A0920 /* BasicTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTabBarController.swift; sourceTree = "<group>"; };
+		B40B48411C77079F003A0920 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +141,7 @@
 		B40B48181C76CFE0003A0920 /* Category（分类扩展） */ = {
 			isa = PBXGroup;
 			children = (
+				B40B48411C77079F003A0920 /* UIImage.swift */,
 			);
 			name = "Category（分类扩展）";
 			path = Category;
@@ -148,6 +162,9 @@
 		B40B481A1C76CFF0003A0920 /* BasicClass（应用基类） */ = {
 			isa = PBXGroup;
 			children = (
+				B40B48241C76D85B003A0920 /* BasicViewController.swift */,
+				B40B48351C76E26C003A0920 /* BasicNavigationController.swift */,
+				B40B483F1C76E3B0003A0920 /* BasicTabBarController.swift */,
 			);
 			name = "BasicClass（应用基类）";
 			path = BasicClass;
@@ -164,12 +181,10 @@
 		B40B481C1C76D050003A0920 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				B40B47EA1C76C61A003A0920 /* AppDelegate.swift */,
-				B40B47EC1C76C61A003A0920 /* ViewController.swift */,
-				B40B47EE1C76C61A003A0920 /* Main.storyboard */,
-				B40B47F11C76C61A003A0920 /* Assets.xcassets */,
-				B40B47F31C76C61A003A0920 /* LaunchScreen.storyboard */,
-				B40B47F61C76C61A003A0920 /* Info.plist */,
+				B40B48261C76DCE8003A0920 /* AppDelegate.swift */,
+				B40B48271C76DCE8003A0920 /* Assets.xcassets */,
+				B40B48281C76DCE8003A0920 /* Base.lproj */,
+				B40B482D1C76DCE8003A0920 /* Info.plist */,
 			);
 			name = Supporting;
 			path = OneSunChat/Supporting;
@@ -178,6 +193,7 @@
 		B40B481D1C76D2C3003A0920 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				B40B48391C76E2EF003A0920 /* ContactViewController.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -185,6 +201,7 @@
 		B40B481E1C76D2C3003A0920 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				B40B483B1C76E300003A0920 /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -192,6 +209,7 @@
 		B40B481F1C76D2C3003A0920 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				B40B483D1C76E30F003A0920 /* MineViewController.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -199,6 +217,7 @@
 		B40B48201C76D2C3003A0920 /* OSunChat */ = {
 			isa = PBXGroup;
 			children = (
+				B40B48371C76E2D5003A0920 /* ChatViewController.swift */,
 			);
 			path = OSunChat;
 			sourceTree = "<group>";
@@ -210,6 +229,15 @@
 			name = "CustomComponent（自定义组件）";
 			path = CustomComponent;
 			sourceTree = "<group>";
+		};
+		B40B48281C76DCE8003A0920 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B40B48291C76DCE8003A0920 /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			path = OneSunChat/Base.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -315,9 +343,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40B47F51C76C61A003A0920 /* LaunchScreen.storyboard in Resources */,
-				B40B47F21C76C61A003A0920 /* Assets.xcassets in Resources */,
-				B40B47F01C76C61A003A0920 /* Main.storyboard in Resources */,
+				B40B48331C76DCE8003A0920 /* Info.plist in Resources */,
+				B40B48301C76DCE8003A0920 /* Assets.xcassets in Resources */,
+				B40B48311C76DCE8003A0920 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,8 +370,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40B47ED1C76C61A003A0920 /* ViewController.swift in Sources */,
-				B40B47EB1C76C61A003A0920 /* AppDelegate.swift in Sources */,
+				B40B483A1C76E2EF003A0920 /* ContactViewController.swift in Sources */,
+				B40B482F1C76DCE8003A0920 /* AppDelegate.swift in Sources */,
+				B40B48381C76E2D5003A0920 /* ChatViewController.swift in Sources */,
+				B40B48401C76E3B0003A0920 /* BasicTabBarController.swift in Sources */,
+				B40B483E1C76E30F003A0920 /* MineViewController.swift in Sources */,
+				B40B483C1C76E300003A0920 /* DiscoverViewController.swift in Sources */,
+				B40B48421C77079F003A0920 /* UIImage.swift in Sources */,
+				B40B48361C76E26C003A0920 /* BasicNavigationController.swift in Sources */,
+				B40B48251C76D85B003A0920 /* BasicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,22 +414,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B40B47EE1C76C61A003A0920 /* Main.storyboard */ = {
+		B40B48291C76DCE8003A0920 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B40B47EF1C76C61A003A0920 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		B40B47F31C76C61A003A0920 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B40B47F41C76C61A003A0920 /* Base */,
+				B40B482A1C76DCE8003A0920 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
