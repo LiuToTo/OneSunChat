@@ -35,12 +35,12 @@
 
 /* Begin PBXFileReference section */
 		B40B47E71C76C61A003A0920 /* OneSunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B40B47EA1C76C61A003A0920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B40B47EC1C76C61A003A0920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B40B47EA1C76C61A003A0920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		B40B47EC1C76C61A003A0920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		B40B47EF1C76C61A003A0920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B40B47F11C76C61A003A0920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B40B47F11C76C61A003A0920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		B40B47F41C76C61A003A0920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B40B47F61C76C61A003A0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B40B47F61C76C61A003A0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		B40B47FB1C76C61A003A0920 /* OneSunChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSunChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40B47FF1C76C61A003A0920 /* OneSunChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSunChatTests.swift; sourceTree = "<group>"; };
 		B40B48011C76C61A003A0920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +97,12 @@
 		B40B47E91C76C61A003A0920 /* OneSunChat */ = {
 			isa = PBXGroup;
 			children = (
-				B40B47EA1C76C61A003A0920 /* AppDelegate.swift */,
-				B40B47EC1C76C61A003A0920 /* ViewController.swift */,
-				B40B47EE1C76C61A003A0920 /* Main.storyboard */,
-				B40B47F11C76C61A003A0920 /* Assets.xcassets */,
-				B40B47F31C76C61A003A0920 /* LaunchScreen.storyboard */,
-				B40B47F61C76C61A003A0920 /* Info.plist */,
+				B40B481B1C76CFF0003A0920 /* Util(工具) */,
+				B40B48181C76CFE0003A0920 /* Category（分类扩展） */,
+				B40B481A1C76CFF0003A0920 /* BasicClass（应用基类） */,
+				B40B48211C76D490003A0920 /* CustomComponent（自定义组件） */,
+				B40B48191C76CFF0003A0920 /* AppComponent（应用级组件） */,
+				B40B481C1C76D050003A0920 /* Supporting */,
 			);
 			path = OneSunChat;
 			sourceTree = "<group>";
@@ -123,6 +123,92 @@
 				B40B480C1C76C61A003A0920 /* Info.plist */,
 			);
 			path = OneSunChatUITests;
+			sourceTree = "<group>";
+		};
+		B40B48181C76CFE0003A0920 /* Category（分类扩展） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Category（分类扩展）";
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B40B48191C76CFF0003A0920 /* AppComponent（应用级组件） */ = {
+			isa = PBXGroup;
+			children = (
+				B40B48201C76D2C3003A0920 /* OSunChat */,
+				B40B481D1C76D2C3003A0920 /* Contact */,
+				B40B481E1C76D2C3003A0920 /* Discover */,
+				B40B481F1C76D2C3003A0920 /* Mine */,
+			);
+			name = "AppComponent（应用级组件）";
+			path = AppComponent;
+			sourceTree = "<group>";
+		};
+		B40B481A1C76CFF0003A0920 /* BasicClass（应用基类） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "BasicClass（应用基类）";
+			path = BasicClass;
+			sourceTree = "<group>";
+		};
+		B40B481B1C76CFF0003A0920 /* Util(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Util(工具)";
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B40B481C1C76D050003A0920 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B40B47EA1C76C61A003A0920 /* AppDelegate.swift */,
+				B40B47EC1C76C61A003A0920 /* ViewController.swift */,
+				B40B47EE1C76C61A003A0920 /* Main.storyboard */,
+				B40B47F11C76C61A003A0920 /* Assets.xcassets */,
+				B40B47F31C76C61A003A0920 /* LaunchScreen.storyboard */,
+				B40B47F61C76C61A003A0920 /* Info.plist */,
+			);
+			name = Supporting;
+			path = OneSunChat/Supporting;
+			sourceTree = SOURCE_ROOT;
+		};
+		B40B481D1C76D2C3003A0920 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		B40B481E1C76D2C3003A0920 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B40B481F1C76D2C3003A0920 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		B40B48201C76D2C3003A0920 /* OSunChat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OSunChat;
+			sourceTree = "<group>";
+		};
+		B40B48211C76D490003A0920 /* CustomComponent（自定义组件） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CustomComponent（自定义组件）";
+			path = CustomComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +385,7 @@
 				B40B47EF1C76C61A003A0920 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B40B47F31C76C61A003A0920 /* LaunchScreen.storyboard */ = {
@@ -307,6 +394,7 @@
 				B40B47F41C76C61A003A0920 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +570,7 @@
 				B40B48111C76C61A003A0920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B40B48121C76C61A003A0920 /* Build configuration list for PBXNativeTarget "OneSunChatTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +579,7 @@
 				B40B48141C76C61A003A0920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B40B48151C76C61A003A0920 /* Build configuration list for PBXNativeTarget "OneSunChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +588,7 @@
 				B40B48171C76C61A003A0920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
